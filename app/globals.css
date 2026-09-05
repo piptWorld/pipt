@@ -357,6 +357,16 @@ button { cursor: pointer; }
 .pairing-note > span { margin-bottom: 11px; color: var(--clay); }
 .pairing-note strong { display: block; color: var(--ink); font-size: 15px; font-weight: 540; letter-spacing: -.02em; }
 .pairing-note p { max-width: 390px; margin: 11px 0 0; color: var(--muted); font: 12px/1.55 var(--font-geist-sans), Arial, sans-serif; letter-spacing: 0; }
+.pairing-note a {
+  width: max-content;
+  margin-top: 15px;
+  display: inline-block;
+  color: var(--blue);
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--blue) 35%, transparent);
+  font: 10px/1.4 var(--font-geist-mono), monospace;
+}
+.pairing-note a:hover { border-bottom-color: var(--blue); }
 
 .site-content > footer {
   display: flex;

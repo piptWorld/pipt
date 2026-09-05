@@ -245,6 +245,7 @@ export default function Home() {
           <a href="#study">Current lesson</a>
           <a href="#notes">Notes</a>
           <a href="#studies">Experiments</a>
+          <a href="/nim">NIM note</a>
           <a href="#about">About</a>
         </nav>
         <div className="rail-actions">
@@ -390,6 +391,7 @@ export default function Home() {
               <span>Built around</span>
               <strong>NVDA pairing + NVIDIA NIM</strong>
               <p>PIPT is being built around a pairing with the NVIDIA Stock Token (NVDA) on Pons and NVIDIA NIM as the learning layer behind future lessons. PIPT is independent and is not affiliated with or endorsed by NVIDIA, Robinhood, or Pons.</p>
+              <a href="/nim">read what pipt thinks about NIM →</a>
             </div>
           </div>
         </section>
